@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <script src="C:\Users\randy\OneDrive\Escritorio\ProyectosCursoEmmanuel\EmmaHomeworks\CRUD\MYCRUD.js"></script>
+</head>
+
+<body>
+    <h1>MY CARS CRUD BABY</h1>
+    <div>
+        <div>CARS NUMBER PLATE:</div>
+        <input type="text" id="inputId" placeholder="INTRODUCE CNP" />
+
+        <div>BRAND</div>
+        <input type="text" id="inputBrand" placeholder="INTRODUCE BRAND" />
+
+        <div>MODEL</div>
+        <input type="text" id="inputModel" placeholder="INTRODUCE MODEL" />
+
+        <div>YEAR</div>
+        <input type="text" id="inputYear" placeholder="INTRODUCE YEAR" />
+
+        <div>COLOR</div>
+        <input type="text" id="inputColor" placeholder="INTRODUCE COLOR" />
+    </div>
+    <div>
+        <button onclick="add()">ADD CAR MINI BOO</button>
+        <button onclick="clearAll()">CLEAR ALL CHILD</button>
+    </div>
+
+    <br />
+    <div>
+        <table id="carTable">
+            <thead>
+                <tr>
+                    <th>PLATE</th>
+                    <th>BRAND</th>
+                    <th>MODEL</th>
+                    <th>YEAR</th>
+                    <th>COLOR</th>
+                    <th>ACCIONS</th>
+                </tr>
+            </thead>
+            <tbody id="carTableBody"></tbody>
+        </table>
+    </div>
+</body>
+
+</html>

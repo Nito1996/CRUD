@@ -1,0 +1,91 @@
+body{
+    background-color:fuchsia;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 90%;
+    margin: 20px auto;
+    background: gold;
+}
+
+table.list{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(204,200,200);
+    border-radius: 10px;
+    
+    text-align: center;
+    padding: 8px 15px;
+    font-family: sans-serif;
+    font-size: medium;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(204,200,200);
+    text-transform: uppercase;
+}
+
+input[type="text"],input[type="number"]{
+    width:91%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    background-color: #FFFFFF;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    background: fuchsia;
+    transition: 0.2s;
+}
+
+input[type="reset"]:hover{
+    background: fuchsia;
+    transition: 0.2s;
+}
+
+button{
+    background: #eee;
+    padding:6px 12px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background:#4b99d8 ;
+}
+
+.main_h1 {
+   color: #FFFFFF;
+    
+}
+
+label{
+    font-family: sans-serif;
+    font-size: large;
+}
